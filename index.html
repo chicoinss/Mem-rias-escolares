@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minhas Memórias do Ensino Fundamental</title>
+    <title>Minhas Memórias escolares</title>
     <link rel="stylesheet" href="style.css">
     <style>
         /* Adicionando estilo para as imagens */
@@ -20,6 +20,19 @@
         /* Espaçamento entre as imagens */
         .imagem-com-texto + .imagem-com-texto {
             margin-top: 40px;
+        }
+
+        /* Estilo para as imagens lado a lado */
+        .imagens-lado-a-lado {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .imagens-lado-a-lado img {
+            width: 30%; /* Mantém as imagens menores */
+            height: auto;
         }
     </style>
 </head>
@@ -53,8 +66,10 @@
             <p>
                 Quando eu penso no ensino fundamental, parece que foi ontem. Acordar cedo era um sacrifício, mas de alguma forma a gente sempre chegava em cima do horário, com aquele desespero de entrar antes do sinal tocar e a professora ficar brava. A sala de aula tinha aquele cheiro de lápis novo, caderno amassado na mochila, e sempre tinha alguém que esquecia o material, e claro, era aquela correria pra emprestar.
             </p>
+            <p>Um dia no laboratório, sempre que eu ia gostava de admirar a vista que tinha de lá</p>
+
             <!-- Imagens lado a lado (três imagens) -->
-            <div class="imagens-lado-a-lado imagens-tres-lado-a-lado">
+            <div class="imagens-lado-a-lado">
                 <img src="IMG-20241019-WA0004.jpg" alt="Vista do laboratório 1">
                 <img src="IMG-20241019-WA0007.jpg" alt="Vista do laboratório 2">
                 <img src="IMG-20241019-WA0008.jpg" alt="Vista do laboratório 3">
@@ -76,13 +91,29 @@
                 <img src="IMG-20241019-WA0013.jpg" alt="Cachorrinho no Farol">
             </div>
 
+            <!-- Novas imagens uma debaixo da outra com espaçamento -->
+            <div class="imagem-com-texto">
+                <p>Aqui foi um momento bastante divertido que tive com meus amigos, ficamos montando Lego no farol depois do colégio.</p>
+                <img src="IMG-20241019-WA0014.jpg" alt="Momento com amigos montando Lego">
+            </div>
+
+            <div class="imagem-com-texto">
+                <p>Depois das aulas eu acostumava ficar sentado aqui esperando minha condução chegar, nesse dia eu vi esse cachorrinho pela primeira vez na região, ele me lembrou o cãozinho da Dama e o Vagabundo... e no caso, ele seria o vagabundo 😁</p>
+                <img src="IMG-20241019-WA0012.jpg" alt="Cachorrinho que lembra o Vagabundo">
+            </div>
+
+            <div class="imagem-com-texto">
+                <p>E para fechar as memórias com chave de ouro, fique com o Sr. Esqueleto que foi nos visitar em uma das aulas de Saúde e bem estar...💀</p>
+                <img src="IMG-20241019-WA0011.jpg" alt="Sr. Esqueleto na aula de saúde e bem estar">
+            </div>
+
         </section>
     </main>
 
     <!-- Rodapé -->
     <footer>
         <p>Escola: Padre Cláudio Morelli</p>
-        <p>Nome do Aluno: Ana Carolina, Nº 3</p>
+        <p>Nome do Aluno: Izabelly, Nº 18</p>
     </footer>
 </body>
-</html>
+    </html>
